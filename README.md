@@ -126,7 +126,7 @@ app.listen(3000);
 ````
 上方的伪代码中标注了中间件的执行顺序，看起来是不是有点像 ruby 执行代码块（block）时 yield 的表现了？也许这能帮助你更好的理解 koa 运作的方式。
 
-**译者注：** 更加形象的图可以参考 [Django Middleware](https://docs.djangoproject.com/en/1.6/topics/http/middleware/)
+**译者注：** 更加形象的图可以参考 [Django Middleware](https://docs.djangoproject.com/en/1.9/topics/http/middleware/)
 
 ![onion.png](https://raw.github.com/fengmk2/koa-guide/master/onion.png)
 
